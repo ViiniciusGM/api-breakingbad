@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+
+  background-color: darkslategray;
+}
+
+header{
+  background-color: white;
+
+  display: flex;
+  align-items: center;  
+  justify-content: space-around;
+
+  margin-bottom: 2rem;
+}
+
+.search{
+  display: flex;
+}
+
+header input {
+  width: 30rem;
+  height: 4rem;
+
+  border-radius: 10px 0  0 10px;
+
+  padding: 1rem;
+  outline: none;
+}
+
+header ::-webkit-input-placeholder{
+  font-family:  'Poppins', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+header button {
+  border-radius: 0 10px 10px 0;
+  border: 1px solid black;
+
+  height: 4rem;
+  width: fit-content;
+  padding-inline: 2rem;
+
+  cursor: pointer;
+}
+
+table{
+  margin: 0 auto;
+  width: clamp(90rem, 90rem + 10vw, 160rem);
+}
+
+thead td{
+  padding: 2rem;
+}
+
+table * {
+  font-size: 2rem;
+  
+  color: white;
+}
+
+tbody td{
+  color: rgb(8, 207, 8);
+  padding: 2rem;
+}
+
+tbody img{
+  border-radius: 3rem;
+  width: 8rem;
+}
+
+tbody button {
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 38, 38);
+
+  cursor: pointer;
+}
